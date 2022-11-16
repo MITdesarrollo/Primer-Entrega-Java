@@ -9,12 +9,18 @@ public class Main {
 
 //        System.out.println("El monto a abonar es " + monto);
 
-        int entero = 15;
-        double flotante = 15.5;
 
-        double resultado1 = flotante - entero;
-        double resultado2= entero%flotante;
-        System.out.println("Dato float = " + resultado1);
-        System.out.println("Dato entero = " + resultado2);
+
+
+        //ejerciocio entregable
+
+
+        int entero;
+        float flotante = 15.5f;
+
+         entero = (int) flotante;
+
+        System.out.println("Dato entero = " + entero);
+        System.out.println("Dato float = " + flotante);
     }
 }
