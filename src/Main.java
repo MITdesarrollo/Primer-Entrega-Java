@@ -11,16 +11,14 @@ public class Main {
 
 
 
-
-        //ejerciocio entregable
-
-
         int entero;
         float flotante = 15.5f;
 
          entero = (int) flotante;
 
+         float resultado1 = flotante - entero;
+
+        System.out.println("Dato float = " + resultado1);
         System.out.println("Dato entero = " + entero);
-        System.out.println("Dato float = " + flotante);
     }
 }
